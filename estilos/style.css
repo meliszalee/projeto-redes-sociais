@@ -41,7 +41,7 @@ main{
 #tela{
     position: relative;
     top: 80px;
-    left: 22.3px;
+    left: 21.6px;
 
     width: 267.5px;
     height: 472px;
@@ -56,11 +56,13 @@ main{
     margin: 10px;
 
     border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 5px #00000088;
     box-sizing: border-box;
 }
 
 #redes-sociais img:hover{
-    border: 2px solid white;
-    transition: 0.5s;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    transform: translate( -3px, -3px);
+    box-shadow: 5px 5px 10px #000000be;
+    transition: transform 0.3s;
 }
